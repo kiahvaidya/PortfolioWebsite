@@ -40,12 +40,6 @@ const Index = () => {
       technologies: ["Electronics", "PCB Design"],
     },
     {
-      title: "Farmer-Customer Direct Market App",
-      description: "A prototype app connecting farmers directly with customers",
-      technologies: ["Figma", "UX Design", "Product Strategy"],
-      
-    },
-    {
       title: "Memory Game",
       description: "A classic memory matching game built with Python and Tkinter",
       technologies: ["Tkinter", "UX Design", "Python"],
@@ -57,6 +51,12 @@ const Index = () => {
       technologies: ["HTML","Javascript","React"],
       githubLink: "https://github.com/kiahvaidya/portfoliowebsite"
     },
+     {
+      title: "Voice Assistant",
+      description: "A a Python-based voice assistant powered by the ElevenLabs Conversational AI API.",
+      technologies: ["Python","ElevenLabs API",],
+      githubLink: "https://github.com/kiahvaidya/VoiceAssistant"
+    }
   ];
 
   // Skills data
