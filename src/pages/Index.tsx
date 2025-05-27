@@ -56,6 +56,12 @@ const Index = () => {
       description: "A a Python-based voice assistant powered by the ElevenLabs Conversational AI API.",
       technologies: ["Python","ElevenLabs API",],
       githubLink: "https://github.com/kiahvaidya/VoiceAssistant"
+    },
+    {
+      title: "Discord Meme Bot",
+      description: "A a Python-based simple bot that replies with a random meme from Reddit when you type $meme.",
+      technologies: ["Python","Replit",],
+      githubLink: "https://github.com/kiahvaidya/DiscordMemeBot"
     }
   ];
 
