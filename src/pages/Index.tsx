@@ -60,7 +60,7 @@ const Index = () => {
     {
       title: "Discord Meme Bot",
       description: "A a Python-based simple bot that replies with a random meme from Reddit when you type $meme.",
-      technologies: ["Python","Replit",],
+      technologies: ["Python","Railway",],
       githubLink: "https://github.com/kiahvaidya/DiscordMemeBot"
     }
   ];
