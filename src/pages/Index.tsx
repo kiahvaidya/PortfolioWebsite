@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -7,7 +6,7 @@ import Footer from "@/components/Footer";
 import ProjectCard from "@/components/ProjectCard";
 import SkillBadge from "@/components/SkillBadge";
 import LeadershipCard from "@/components/LeadershipCard";
-
+import CourseCard from "@/components/CourseCard";
 
 const Index = () => {
   //  data for project cards
@@ -49,9 +48,9 @@ const Index = () => {
       title: "Portfolio Website",
       description: "A personal portfolio website highlighting my work, expertise, and achievements.",
       technologies: ["HTML","Javascript","React"],
-      githubLink: "https://github.com/kiahvaidya/portfoliowebsite"
+      githubLink: "https://github.com/kiahvaidya/PortfolioWebsite"
     },
-     {
+    {
       title: "Voice Assistant",
       description: "A a Python-based voice assistant powered by the ElevenLabs Conversational AI API.",
       technologies: ["Python","ElevenLabs API",],
@@ -60,7 +59,7 @@ const Index = () => {
     {
       title: "Discord Meme Bot",
       description: "A a Python-based simple bot that replies with a random meme from Reddit when you type $meme.",
-      technologies: ["Python","Railway",],
+      technologies: ["Python","Replit",],
       githubLink: "https://github.com/kiahvaidya/DiscordMemeBot"
     }
   ];
@@ -71,6 +70,31 @@ const Index = () => {
     "Python", "PCB Design", 
     "UI/UX"
   ];
+
+  //Course data
+  const courseData = [
+  {
+    title: "Machine Learning with Python",
+    provider: "L&T",
+    certificateLink: "https://drive.google.com/file/d/1K85Xdv97iwLncO2Cbh3ATOel424YCMtu/view?usp=sharing"
+  },
+  {
+    title: "TCS iON Career Edge- Young Professional",
+    provider: "TCS-iON",
+    certificateLink: "https://drive.google.com/file/d/1RnKRklT4djxsJckoIt9PTg0nZJZck6qr/view?usp=sharing"
+  },
+  {
+    title: "Java Programming Fundamentals",
+    provider: "Infosys",
+    certificateLink: "https://drive.google.com/file/d/13_rVg0vpFmZHk6SXz6jPP4QeaxBIfOUp/view?usp=sharing"
+  },
+  {
+    title: "Matlab Onramp , Fundamentals and Simulink",
+    provider: "Matlab",
+    certificateLink: "https://drive.google.com/drive/folders/1OgH9LSRdEKb1XAYtHy5pMqMgQp8mf8Ud?usp=sharing://example.com/https://drive.google.com/file/d/13_rVg0vpFmZHk6SXz6jPP4QeaxBIfOUp/view?usp=sharing-cert"
+  }
+];
+
 
   // Leadership data
   const leadershipRoles = [
@@ -199,6 +223,25 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Courses Section */}
+        <section id="courses" className="section-padding">
+          <div className="container mx-auto">
+          <h2 className="section-heading">Certifications</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {courseData.map((course, idx) => (
+              <CourseCard
+               key={idx} 
+               provider={course.provider}
+               title={course.title}
+               certificateLink={course.certificateLink}
+               />
+            ))}
+          </div>
+          </div>
+         </section>
+      
+
 
       {/* Leadership Section */}
       <section id="leadership" className="section-padding">
