@@ -169,7 +169,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2">
               <p className="mb-4">
-                I'm currently a second-year EXCS student at Vidyalankar Institute of Technology,
+                I'm currently a third-year EXCS student at Vidyalankar Institute of Technology,
                 where I'm honing my skills in both electronics and computer science.
               </p>
               <p className="mb-4">
