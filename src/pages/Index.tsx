@@ -61,6 +61,12 @@ const Index = () => {
       description: "A a Python-based simple bot that replies with a random meme from Reddit when you type $meme.",
       technologies: ["Python","Replit",],
       githubLink: "https://github.com/kiahvaidya/DiscordMemeBot"
+    },
+     {
+      title: "Flight Fare Prediction",
+      description: "This project uses machine learning to predict flight fares based on airline, source, destination, duration, and other flight-related features. bot that replies with a random meme from Reddit when you type $meme.",
+      technologies: ["Machine Learning","Jupyter Notebook"],
+      githubLink: "https://github.com/kiahvaidya/FlightFarePrediction"
     }
   ];
 
