@@ -67,6 +67,12 @@ const Index = () => {
       description: "This project uses machine learning to predict flight fares based on airline, source, destination, duration, and other flight-related features.",
       technologies: ["Machine Learning","Jupyter Notebook"],
       githubLink: "https://github.com/kiahvaidya/FlightFarePrediction"
+    },
+    {
+      title: "F1 Prediction",
+      description: "This project uses classification machine learning to predict podium finishers for upcoming Formula 1 races .",
+      technologies: ["Machine Learning","Jupyter Notebook","FastF1"],
+      githubLink: "https://github.com/kiahvaidya/f1prediction"
     }
   ];
 
