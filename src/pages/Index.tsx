@@ -64,7 +64,7 @@ const Index = () => {
     },
      {
       title: "Flight Fare Prediction",
-      description: "This project uses machine learning to predict flight fares based on airline, source, destination, duration, and other flight-related features.",
+      description: "This project uses regression machine learning to predict flight fares based on airline, source, destination, duration, and other flight-related features.",
       technologies: ["Machine Learning","Jupyter Notebook"],
       githubLink: "https://github.com/kiahvaidya/FlightFarePrediction"
     },
