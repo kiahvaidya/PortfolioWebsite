@@ -12,13 +12,7 @@ const Index = () => {
   //  data for project cards
   const projects = [
   
-    {
-      title: "Music Genre Website",
-      description: "Displays music recommendation based on mood and genre",
-      technologies: ["JavaScript", "Node.js", "Spotify API"],
-      githubLink: "https://github.com/kiahvaidya/music-recommendation-website",
-      
-    },
+
     {
       title: "Music Recommendation Website",
       description: "Provides recommendations based on a keyword or song input.",
