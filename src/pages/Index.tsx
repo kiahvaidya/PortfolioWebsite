@@ -14,10 +14,10 @@ const Index = () => {
   
 
     {
-      title: "Music Recommendation Website",
+      title: "Music Recommendor",
       description: "Provides recommendations based on a keyword or song input.",
       technologies: ["Streamlit", "Python", "Machine Learning"],
-      githubLink: "https://github.com/ShubhamPenkar/MusicRecommender",
+      githubLink: "https://github.com/kiahvaidya/MusicRecommender",
       
     },
     {
