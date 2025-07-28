@@ -72,9 +72,8 @@ const Index = () => {
 
   // Skills data
   const skills = [
-    "HTML", "CSS", "JavaScript", "ML",  
-    "Python", "PCB Design", 
-    "UI/UX","Canva","MySQL"
+    "HTML", "CSS", "JavaScript", "Python","ML",  
+    "UI/UX","Canva","MySQL","PCB Design",
   ];
 
   //Course data
