@@ -72,9 +72,9 @@ const Index = () => {
 
   // Skills data
   const skills = [
-    "HTML", "CSS", "JavaScript", "React",  
+    "HTML", "CSS", "JavaScript", "ML",  
     "Python", "PCB Design", 
-    "UI/UX"
+    "UI/UX","Canva","MySQL"
   ];
 
   //Course data
@@ -98,6 +98,11 @@ const Index = () => {
     title: "Matlab Onramp , Fundamentals and Simulink",
     provider: "Matlab",
     certificateLink: "https://drive.google.com/drive/folders/1OgH9LSRdEKb1XAYtHy5pMqMgQp8mf8Ud?usp=sharing://example.com/https://drive.google.com/file/d/13_rVg0vpFmZHk6SXz6jPP4QeaxBIfOUp/view?usp=sharing-cert"
+  },
+  {
+    title: "VLSI System On Chip Design - Overview",
+    provider: "Maven Silicon",
+    certificateLink: "https://drive.google.com/file/d/1O__oPe0tLitH_Sda0HMvrH58ygrjoODx/view?usp=sharing"
   }
 ];
 
