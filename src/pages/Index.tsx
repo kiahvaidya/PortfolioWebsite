@@ -64,7 +64,7 @@ const Index = () => {
     },
     {
       title: "F1 Prediction",
-      description: "This project uses classification machine learning to predict podium finishers for upcoming Formula 1 races .",
+      description: "This project uses regression machine learning to predict podium finishers for upcoming Formula 1 races .",
       technologies: ["Machine Learning","Jupyter Notebook","FastF1"],
       githubLink: "https://github.com/kiahvaidya/f1prediction"
     }
