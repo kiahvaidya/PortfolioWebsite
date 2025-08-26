@@ -287,7 +287,7 @@ const Index = () => {
             </Button>
             <div className="mt-16 bg-white p-6 rounded shadow-lg w-full max-w-2xl">
             <iframe
-              src="/CV_KiahVaidya1.pdf"
+              src="/CV_KiahVaidya.pdf"
               width="600px"
               height="400px"
               className="rounded"
