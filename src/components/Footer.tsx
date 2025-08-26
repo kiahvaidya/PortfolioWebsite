@@ -9,7 +9,7 @@ const Footer = () => {
     { icon: <Github className="social-icon" />, href: 'https://github.com/kiahvaidya'},
     { icon: <Linkedin className="social-icon" />, href: 'https://www.linkedin.com/in/kiahvaidya/'},
     { icon: <Instagram className="social-icon" />, href: 'https://www.instagram.com/kiahvaidya/'},
-    { icon: <Mail className="social-icon" />, href: 'mailto:kiahv17@gmail.com' }
+    { icon: <Mail className="social-icon" />, href: 'https://mail.google.com/mail/?view=cm&to=kiahv17@gmail.com' }
   ];
   
 
