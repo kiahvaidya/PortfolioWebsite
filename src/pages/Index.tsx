@@ -324,8 +324,9 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-primary font-medium">
-                <a href="https://mail.google.com/mail/?view=cm&to=yourname@gmail.com" target="_blank"> Email: kiahv17@gmail.com 
-                </a>
+               <a href="https://mail.google.com/mail/?view=cm&to=yourname@gmail.com" target="_blank">
+                   <button>Email Me</button>
+                 </a>
               </p>
             </div>
           </div>
