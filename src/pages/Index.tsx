@@ -59,14 +59,20 @@ const Index = () => {
      {
       title: "Flight Fare Prediction",
       description: "This project uses machine learning to predict flight fares based on user-provided flight details and suggests the best booking date to get the lowest fare.",
-      technologies: ["Machine Learning","Jupyter Notebook"],
+      technologies: ["Machine Learning","Random Forest"],
       githubLink: "https://github.com/kiahvaidya/FlightFarePrediction"
     },
     {
       title: "F1 Prediction",
       description: "This project uses regression machine learning to predict podium finishers for upcoming Formula 1 races .",
-      technologies: ["Machine Learning","Jupyter Notebook","FastF1"],
+      technologies: ["Machine Learning","Random Forest","FastF1"],
       githubLink: "https://github.com/kiahvaidya/f1prediction"
+    },
+        {
+      title: "Social Media Toxicity Analyzer",
+      description: "A machine learning–based system that detects toxic comments from YouTube, Twitter, Reddit, and custom text in English and Hinglish using TF-IDF and Logistic Regression.",
+      technologies: ["Machine Learning","Logistic Regression","TF-IDF"],
+      githubLink: "https://github.com/kiahvaidya/social-media-toxicity-analyzer"
     }
   ];
 
