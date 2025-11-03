@@ -70,7 +70,7 @@ const Index = () => {
     },
         {
       title: "Social Media Toxicity Analyzer",
-      description: "A machine learning–based system that detects toxic comments from YouTube, Twitter, Reddit, and custom text in English and Hinglish using TF-IDF and Logistic Regression.",
+      description: "This ML project detects toxic comments from YouTube, Twitter, Reddit, and custom text in English and Hinglish using TF-IDF and Logistic Regression.",
       technologies: ["Machine Learning","Logistic Regression","TF-IDF"],
       githubLink: "https://github.com/kiahvaidya/social-media-toxicity-analyzer"
     }
