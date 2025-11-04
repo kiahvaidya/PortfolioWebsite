@@ -68,6 +68,12 @@ const Index = () => {
       technologies: ["Machine Learning","Random Forest","FastF1"],
       githubLink: "https://github.com/kiahvaidya/f1prediction"
     },
+     {
+      title: "Elevator Controller",
+      description: "Designed an elevator controller (FSM) using Verilog for efficient floor and door operation simulation.",
+      technologies: ["Cadence Xcelium","Cadence Virtuoso","Verilog"],
+      githubLink: "https://github.com/kiahvaidya/f1prediction"
+    },
         {
       title: "Social Media Toxicity Analyzer",
       description: "This ML project detects toxic comments from YouTube, Twitter, Reddit, and custom text in English and Hinglish using TF-IDF and Logistic Regression.",
