@@ -293,7 +293,7 @@ const Index = () => {
               skills, and experiences in detail.
             </p>
             <Button size="lg" asChild>
-              <a href="/CV_KiahVaidya.pdf" download="Kiah_Vaidya_Resume.pdf">
+              <a href="/KiahVaidya_Resume2.pdf" download="Kiah_Vaidya_Resume.pdf">
                 Download Resume
               </a>
             </Button>
