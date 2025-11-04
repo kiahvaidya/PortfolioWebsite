@@ -72,7 +72,7 @@ const Index = () => {
       title: "Elevator Controller",
       description: "Designed an elevator controller (FSM) using Verilog for efficient floor and door operation simulation.",
       technologies: ["Cadence Xcelium","Cadence Virtuoso","Verilog"],
-      githubLink: "https://github.com/kiahvaidya/f1prediction"
+      githubLink: "https://github.com/kiahvaidya/elevator-controller-vlsi-"
     },
         {
       title: "Social Media Toxicity Analyzer",
