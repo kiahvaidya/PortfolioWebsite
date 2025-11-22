@@ -79,6 +79,12 @@ const Index = () => {
       description: "This ML project detects toxic comments from YouTube, Twitter, Reddit, and custom text in English and Hinglish using TF-IDF and Logistic Regression.",
       technologies: ["Machine Learning","Logistic Regression","TF-IDF"],
       githubLink: "https://github.com/kiahvaidya/social-media-toxicity-analyzer"
+    },
+     {
+      title: "Handwritten Digit Recognition",
+      description: "This DL project allows users to draw digits (0–9) on a canvas and get predictions using a trained Convolutional Neural Network (CNN)",
+      technologies: ["Deep Learning","CNN","TensorFlow", "MNIST"],
+      githubLink: "https://github.com/kiahvaidya/Handwritten-Digit-Recognition"
     }
   ];
 
