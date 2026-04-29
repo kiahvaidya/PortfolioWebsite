@@ -308,13 +308,13 @@ const Index = () => {
               skills, and experiences in detail.
             </p>
             <Button size="lg" asChild>
-              <a href="/Kiah_Vaidya_Resume2.pdf" download="KiahVaidya_Resume2.pdf">
+              <a href="/Kiah_Vaidya_Resume.pdf" download="Kiah_Vaidya_Resume.pdf">
                 Download Resume
               </a>
             </Button>
             <div className="mt-16 bg-white p-6 rounded shadow-lg w-full max-w-2xl">
             <iframe
-              src="/KiahVaidya_Resume.pdf"
+              src="/Kiah_Vaidya_Resume.pdf"
               width="600px"
               height="400px"
               className="rounded"
