@@ -68,6 +68,15 @@ const Index = () => {
       technologies: ["Machine Learning","Random Forest","FastF1"],
       githubLink: "https://github.com/kiahvaidya/f1prediction"
     },
+    {
+    title: "Machine lEarning Crash Course",
+    provider: "Google for Developers",
+    },
+   {
+    title: "CompTIA Security+ (SY0-701)",
+    provider: "Udemy",
+    certificateLink: "https://drive.google.com/file/d/1giUHQ99ZSJNV0atRKaxaf9d-D0l5KVV1/view?usp=drive_link"
+    },
      {
       title: "Elevator Controller",
       description: "Designed an elevator controller (FSM) using Verilog for efficient floor and door operation simulation.",
