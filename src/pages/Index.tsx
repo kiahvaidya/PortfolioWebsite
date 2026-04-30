@@ -69,15 +69,6 @@ const Index = () => {
       githubLink: "https://github.com/kiahvaidya/f1prediction"
     },
     {
-    title: "Machine lEarning Crash Course",
-    provider: "Google for Developers",
-    },
-    {
-    title: "CompTIA Security+ (SY0-701)",
-    provider: "Udemy",
-    certificateLink: "https://drive.google.com/file/d/1giUHQ99ZSJNV0atRKaxaf9d-D0l5KVV1/view?usp=drive_link"
-    },
-    {
       title: "Elevator Controller",
       description: "Designed an elevator controller (FSM) using Verilog for efficient floor and door operation simulation.",
       technologies: ["Cadence Xcelium","Cadence Virtuoso","Verilog"],
@@ -109,6 +100,15 @@ const Index = () => {
     title: "Machine Learning with Python",
     provider: "L&T",
     certificateLink: "https://drive.google.com/file/d/1K85Xdv97iwLncO2Cbh3ATOel424YCMtu/view?usp=sharing"
+  },
+  {
+    title: "Machine Learning Crash Course",
+    provider: "Google for Developers",
+  },
+  {
+    title: "CompTIA Security+ (SY0-701)",
+    provider: "Udemy",
+    certificateLink: "https://drive.google.com/file/d/1giUHQ99ZSJNV0atRKaxaf9d-D0l5KVV1/view?usp=drive_link"
   },
   {
     title: "TCS iON Career Edge- Young Professional",
