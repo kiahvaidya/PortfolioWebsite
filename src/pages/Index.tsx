@@ -248,7 +248,7 @@ const Index = () => {
         <div className="container mx-auto">
           <h2 className="section-heading">Projects</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {projects.map((project, index) => (
+            {projects?.map((project, index) => (
               <ProjectCard
                 key={index}
                 title={project.title}
