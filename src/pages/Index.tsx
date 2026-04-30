@@ -56,7 +56,7 @@ const Index = () => {
       technologies: ["Python","Replit",],
       githubLink: "https://github.com/kiahvaidya/DiscordMemeBot"
     },
-     {
+    {
       title: "Flight Fare Prediction",
       description: "This project uses machine learning to predict flight fares based on user-provided flight details and suggests the best booking date to get the lowest fare.",
       technologies: ["Machine Learning","Random Forest"],
@@ -72,18 +72,18 @@ const Index = () => {
     title: "Machine lEarning Crash Course",
     provider: "Google for Developers",
     },
-   {
+    {
     title: "CompTIA Security+ (SY0-701)",
     provider: "Udemy",
     certificateLink: "https://drive.google.com/file/d/1giUHQ99ZSJNV0atRKaxaf9d-D0l5KVV1/view?usp=drive_link"
     },
-     {
+    {
       title: "Elevator Controller",
       description: "Designed an elevator controller (FSM) using Verilog for efficient floor and door operation simulation.",
       technologies: ["Cadence Xcelium","Cadence Virtuoso","Verilog"],
       githubLink: "https://github.com/kiahvaidya/elevator-controller-vlsi-"
     },
-        {
+    {
       title: "Social Media Toxicity Analyzer",
       description: "This ML project detects toxic comments from YouTube, Twitter, Reddit, and custom text in English and Hinglish using TF-IDF and Logistic Regression.",
       technologies: ["Machine Learning","Logistic Regression","TF-IDF"],
