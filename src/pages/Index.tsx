@@ -177,7 +177,7 @@ const skills = [
               <div className="relative group w-64 h-64">
                 <div className="absolute inset-0 border-2 border-primary rounded translate-x-5 translate-y-5 transition-transform group-hover:translate-x-3 group-hover:translate-y-3"></div>
                 <div className="absolute inset-0 bg-gray-200 rounded">
-                <img src="/20241125_064811774_iOS.jpg" alt="Your Photo" />
+                <img src="/kiah_photo" alt="Your Photo" />
                   <div className="flex items-center justify-center h-full text-gray-500">
                 
                   </div>
