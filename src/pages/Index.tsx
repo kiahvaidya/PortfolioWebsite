@@ -55,36 +55,19 @@ const skills = [
   "Git"
 ];
 
-const ExperienceData = [
-  {/* Internship Section */}
-<section id="experience" className="section-padding">
-  <div className="container mx-auto">
-    <h2 className="section-heading">Experience</h2>
-    
-    <div className="max-w-3xl">
-      <div className="bg-white p-6 rounded shadow">
-        <h3 className="text-xl font-semibold">SAP Ariba Intern</h3>
-        <p className="text-sm text-gray-500 mb-3">
-          Bristlecone India Ltd · Dec 2025 – Feb 2026
-        </p>
-        
-        <p className="mb-2">
-          Worked on enterprise-scale Source-to-Pay (S2P) workflows, understanding how sourcing, contracts, and procurement systems operate in production environments.
-        </p>
-        
-        <p className="mb-2">
-          Analyzed structured data pipelines and automation flows, gaining insight into how large-scale systems handle transactions and approvals.
-        </p>
-        
-        <p>
-          Developed a strong understanding of system design constraints in enterprise applications, including scalability, reliability, and data consistency.
-        </p>
-      </div>
-    </div>
-    
-  </div>
-</section>
-  ];
+const experienceData = [
+  {
+    role: "SAP Ariba Intern",
+    company: "Bristlecone India Ltd",
+    duration: "Dec 2025 – Feb 2026",
+    description: [
+      "Worked on enterprise-scale Source-to-Pay (S2P) workflows, understanding how sourcing, contracts, and procurement systems operate in production environments.",
+      "Analyzed structured data pipelines and automation flows, gaining insight into how large-scale systems handle transactions and approvals.",
+      "Developed a strong understanding of system design constraints in enterprise applications, including scalability, reliability, and data consistency."
+    ],
+    tags: ["Enterprise Systems", "Data Pipelines", "S2P"]
+  }
+];
 
   //Course data
   const courseData = [
@@ -235,6 +218,18 @@ const ExperienceData = [
           </div>
         </div>
       </section>
+
+      <section id="experience" className="section-padding">
+  <div className="container mx-auto">
+    <h2 className="section-heading">Experience</h2>
+
+    <div className="grid md:grid-cols-2 gap-6">
+      {experienceData.map((exp, index) => (
+        <ExperienceCard key={index} {...exp} />
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Courses Section */}
         <section id="courses" className="section-padding">
