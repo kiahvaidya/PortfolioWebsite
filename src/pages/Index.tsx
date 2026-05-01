@@ -7,6 +7,7 @@ import ProjectCard from "@/components/ProjectCard";
 import SkillBadge from "@/components/SkillBadge";
 import LeadershipCard from "@/components/LeadershipCard";
 import CourseCard from "@/components/CourseCard";
+import ExperienceCard from "@/components/ExperienceCard";
 
 const Index = () => {
   //  data for project cards
@@ -54,6 +55,7 @@ const skills = [
   "Git"
 ];
 
+const ExperienceData = [
   {/* Internship Section */}
 <section id="experience" className="section-padding">
   <div className="container mx-auto">
@@ -82,6 +84,7 @@ const skills = [
     
   </div>
 </section>
+  ];
 
   //Course data
   const courseData = [
