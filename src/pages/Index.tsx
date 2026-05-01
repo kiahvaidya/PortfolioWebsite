@@ -129,8 +129,8 @@ const skills = [
               I build things for the web & beyond.
             </h2>
             <p className="text-lg text-slate mb-8 max-w-xl animate-slide-up" style={{ animationDelay: "400ms" }}>
-              I'm an Electronics & Computer Science Engineering student passionate 
-              about tech creativity, machine learning and impactful community work.
+             I’m an Electronics & Computer Science student who loves building creative tech, experimenting with machine learning
+              and working on projects that actually make an impact.
             </p>
             <div className="animate-slide-up" style={{ animationDelay: "600ms" }}>
               <a href="#projects">
@@ -151,17 +151,15 @@ const skills = [
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2">
               <p className="mb-4">
-                I'm currently a third-year EXCS student at Vidyalankar Institute of Technology,
-                where I'm honing my skills in both electronics and computer science.
+                I'm a third-year Electronics & Computer Science student, focused on building 
+                scalable backend systems and practical machine learning solutions.
               </p>
               <p className="mb-4">
-                My interest spans across web development, electronics projects, student leadership,
-                and event organizing. I enjoy bringing creative solutions to technical challenges and
-                building things that make a difference.
+                I like building things that actually work in real time from systems that talk
+                to each other to ML projects that turn ideas into something more practical.
               </p>
               <p className="mb-6">
-                When I'm not coding or soldering, you can find me designing creative installations for
-                college events or collaborating with other students on innovative projects.
+               Always building something new usually creative, sometimes a bit experimental
               </p>
               
               <div>
@@ -177,7 +175,7 @@ const skills = [
               <div className="relative group w-64 h-64">
                 <div className="absolute inset-0 border-2 border-primary rounded translate-x-5 translate-y-5 transition-transform group-hover:translate-x-3 group-hover:translate-y-3"></div>
                 <div className="absolute inset-0 bg-gray-200 rounded">
-                <img src="/kiah_photo" alt="Your Photo" />
+                <img src="/kiah_photo.jpg" alt="Your Photo" />
                   <div className="flex items-center justify-center h-full text-gray-500">
                 
                   </div>
