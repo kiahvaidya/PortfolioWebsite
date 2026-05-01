@@ -11,88 +11,48 @@ import CourseCard from "@/components/CourseCard";
 const Index = () => {
   //  data for project cards
   const projects = [
-  
-
     {
-      title: "Music Recommendor",
-      description: "Provides recommendations based on a keyword or song input.",
-      technologies: ["Streamlit", "Python", "Machine Learning"],
-      githubLink: "https://github.com/kiahvaidya/MusicRecommender",
-      
+      title: "Distributed Real Time Chat System",
+      description: "Engineered a horizontally scalable real-time chat system using WebSockets and Redis Pub/Sub, achieving sub-10ms latency across distributed server instances.",
+      technologies: ["React","FastAPI","WebSockets","Redis","PostgreSQL","MongoDB","JWT"],
+      githubLink: "https://github.com/kiahvaidya/social-media-toxicity-analyzer"
     },
     {
-      title: "Flappy Bird (COA Project)",
-      description: "Flappy Bird clone created with assembly language",
-      technologies: ["Assembly", "Computer Architecture"],
-      githubLink: "https://github.com/kiahvaidya/FlappyBirdTasm",
-      
+      title: "Neural Architecture Search using Genetic Algorithms",
+      description: "Automated neural network architecture optimization using genetic algorithms with interactive visualization.",
+      technologies: ["Python","Scikit-learn","Genetic Algorithms","Streamlit"],
+      githubLink: "https://github.com/kiahvaidya/social-media-toxicity-analyzer"
     },
-    {
-      title: "Battery Level Indicator",
-      description: "Electronic device to monitor battery levels with LED indicators",
-      technologies: ["Electronics", "PCB Design"],
+     {
+      title: "Explainable AI Decision Platform",
+      description: "Explainable AI system that converts model predictions into ranked, actionable business decisions using SHAP, LIME, and custom scoring.",
+      technologies: ["Machine Learning","SHAP","LIME"],
+      githubLink: "https://github.com/kiahvaidya/social-media-toxicity-analyzer"
     },
-    {
-      title: "Memory Game",
-      description: "A classic memory matching game built with Python and Tkinter",
-      technologies: ["Tkinter", "UX Design", "Python"],
-      githubLink: "https://github.com/kiahvaidya/MemoryGame"
-    },
-    {
-      title: "Portfolio Website",
-      description: "A personal portfolio website highlighting my work, expertise, and achievements.",
-      technologies: ["HTML","Javascript","React"],
-      githubLink: "https://github.com/kiahvaidya/PortfolioWebsite"
-    },
-    {
-      title: "Voice Assistant",
-      description: "A a Python-based voice assistant powered by the ElevenLabs Conversational AI API.",
-      technologies: ["Python","ElevenLabs API",],
-      githubLink: "https://github.com/kiahvaidya/VoiceAssistant"
-    },
-    {
-      title: "Discord Meme Bot",
-      description: "A a Python-based simple bot that replies with a random meme from Reddit when you type $meme.",
-      technologies: ["Python","Replit",],
-      githubLink: "https://github.com/kiahvaidya/DiscordMemeBot"
-    },
-    {
-      title: "Flight Fare Prediction",
-      description: "This project uses machine learning to predict flight fares based on user-provided flight details and suggests the best booking date to get the lowest fare.",
-      technologies: ["Machine Learning","Random Forest"],
-      githubLink: "https://github.com/kiahvaidya/FlightFarePrediction"
-    },
-    {
-      title: "F1 Prediction",
-      description: "This project uses regression machine learning to predict podium finishers for upcoming Formula 1 races .",
-      technologies: ["Machine Learning","Random Forest","FastF1"],
-      githubLink: "https://github.com/kiahvaidya/f1prediction"
-    },
-    {
-      title: "Elevator Controller",
-      description: "Designed an elevator controller (FSM) using Verilog for efficient floor and door operation simulation.",
-      technologies: ["Cadence Xcelium","Cadence Virtuoso","Verilog"],
-      githubLink: "https://github.com/kiahvaidya/elevator-controller-vlsi-"
-    },
-    {
+     {
       title: "Social Media Toxicity Analyzer",
       description: "This ML project detects toxic comments from YouTube, Twitter, Reddit, and custom text in English and Hinglish using TF-IDF and Logistic Regression.",
       technologies: ["Machine Learning","Logistic Regression","TF-IDF"],
       githubLink: "https://github.com/kiahvaidya/social-media-toxicity-analyzer"
-    },
-     {
-      title: "Handwritten Digit Recognition",
-      description: "This DL project allows users to draw digits (0–9) on a canvas and get predictions using a trained Convolutional Neural Network (CNN)",
-      technologies: ["Deep Learning","CNN","TensorFlow", "MNIST"],
-      githubLink: "https://github.com/kiahvaidya/Handwritten-Digit-Recognition"
     }
   ];
 
   // Skills data
-  const skills = [
-    "HTML", "CSS", "JavaScript", "Python","ML",  
-    "UI/UX","Canva","MySQL","PCB Design",
-  ];
+const skills = [
+  "Python",
+  "JavaScript",
+  "FastAPI",
+  "WebSockets",
+  "Redis",
+  "PostgreSQL",
+  "MongoDB",
+  "Machine Learning",
+  "NLP",
+  "XGBoost",
+  "SHAP",
+  "LIME",
+  "Git"
+];
 
   //Course data
   const courseData = [
@@ -111,24 +71,9 @@ const Index = () => {
     certificateLink: "https://drive.google.com/file/d/1giUHQ99ZSJNV0atRKaxaf9d-D0l5KVV1/view?usp=drive_link"
   },
   {
-    title: "TCS iON Career Edge- Young Professional",
-    provider: "TCS-iON",
-    certificateLink: "https://drive.google.com/file/d/1RnKRklT4djxsJckoIt9PTg0nZJZck6qr/view?usp=sharing"
-  },
-  {
-    title: "Java Programming Fundamentals",
+    title: "NoSQL and MongoDB",
     provider: "Infosys",
-    certificateLink: "https://drive.google.com/file/d/13_rVg0vpFmZHk6SXz6jPP4QeaxBIfOUp/view?usp=sharing"
-  },
-  {
-    title: "Matlab Onramp , Fundamentals and Simulink",
-    provider: "Matlab",
-    certificateLink: "https://drive.google.com/drive/folders/1OgH9LSRdEKb1XAYtHy5pMqMgQp8mf8Ud?usp=sharing://example.com/https://drive.google.com/file/d/13_rVg0vpFmZHk6SXz6jPP4QeaxBIfOUp/view?usp=sharing-cert"
-  },
-  {
-    title: "VLSI System On Chip Design - Overview",
-    provider: "Maven Silicon",
-    certificateLink: "https://drive.google.com/file/d/1O__oPe0tLitH_Sda0HMvrH58ygrjoODx/view?usp=sharing"
+    certificateLink: "https://drive.google.com/file/d/17JYBJcSLos3v8jFLtr4D6naHZ6WlavKW/view?usp=sharing"
   }
 ];
 
