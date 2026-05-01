@@ -130,7 +130,7 @@ const skills = [
             </h2>
             <p className="text-lg text-slate mb-8 max-w-xl animate-slide-up" style={{ animationDelay: "400ms" }}>
               I'm an Electronics & Computer Science Engineering student passionate 
-              about web development, tech creativity, machine learning and impactful community work.
+              about tech creativity, machine learning and impactful community work.
             </p>
             <div className="animate-slide-up" style={{ animationDelay: "600ms" }}>
               <a href="#projects">
