@@ -61,10 +61,10 @@ const experienceData = [
     company: "Bristlecone India Ltd",
     duration: "Dec 2025 – Feb 2026",
     description: [
-"Gained end to end exposure to upstream procurement workflows on SAP Ariba, including RFI, RFP and RFQ creation, supplier evaluation frameworks, auction configurations and award scenario analysis across sourcing events."
-"Navigated downstream procurement cycles comprising Purchase Requisitions (PR), Purchase Orders (PO), Goods Receipts (GR) and invoice reconciliation, developing working knowledge of how transactional data flows through approval hierarchies in a live production environment"
-"Worked with supplier lifecycle Performance (SLP) on SAP Ariba, understanding Contract Line Item Documents (CLIDs), contract authoring and workflows that bridge sourcing outcomes to operationally active agreements"
-"Developed a holistic understanding of the Source-to-Pay (S2P) continuum - from supplier discovery and competitive bidding through contract execution to payment - gaining intuition for how structured automation and compliance guardrails govern enterprise scale procurement operations"
+"Gained end to end exposure to upstream procurement workflows on SAP Ariba, including RFI, RFP and RFQ creation, supplier evaluation frameworks, auction configurations and award scenario analysis across sourcing events.",
+"Navigated downstream procurement cycles comprising Purchase Requisitions (PR), Purchase Orders (PO), Goods Receipts (GR) and invoice reconciliation, developing working knowledge of how transactional data flows through approval hierarchies in a live production environment",
+"Worked with supplier lifecycle Performance (SLP) on SAP Ariba, understanding Contract Line Item Documents (CLIDs), contract authoring and workflows that bridge sourcing outcomes to operationally active agreements",
+"Developed a holistic understanding of the Source-to-Pay (S2P) continuum - from supplier discovery and competitive bidding through contract execution to payment - gaining intuition for how structured automation and compliance guardrails govern enterprise scale procurement operations",
     ],
     tags: ["Enterprise Systems", "Data Pipelines", "S2P"]
   }
