@@ -167,7 +167,7 @@ const experienceData = [
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2">
               <p className="mb-4">
-                I'm a third-year Electronics & Computer Science student, focused on building 
+                I'm a Electronics & Computer Science student, focused on building 
                 scalable backend systems and practical machine learning solutions.
               </p>
               <p className="mb-4">
