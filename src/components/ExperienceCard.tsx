@@ -18,10 +18,10 @@ const ExperienceCard = ({
   tags
 }: ExperienceCardProps) => {
   return (
-    <Card className="overflow-hidden card-hover">
+    <Card className="w-full overflow-hidden card-hover">
       <CardHeader>
         <CardTitle className="text-lg">{role}</CardTitle>
-        <p className="text-sm text-gray-500">
+        <p className="w-full text-sm text-gray-500">
           {company} · {duration}
         </p>
       </CardHeader>
