@@ -207,7 +207,7 @@ const experienceData = [
   <div className="container mx-auto">
     <h2 className="section-heading">Experience</h2>
 
-    <div className="grid md:grid-cols-2 gap-6">
+    <div className="grid grid-cols-1">">
       {experienceData.map((exp, index) => (
         <ExperienceCard key={index} {...exp} />
       ))}
