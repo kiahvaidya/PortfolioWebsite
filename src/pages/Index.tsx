@@ -201,7 +201,20 @@ const experienceData = [
           </div>
         </div>
       </section>
+      
+      {/* Experience Section */}
+       <section id="experience" className="section-padding">
+  <div className="container mx-auto">
+    <h2 className="section-heading">Experience</h2>
 
+    <div className="grid md:grid-cols-2 gap-6">
+      {experienceData.map((exp, index) => (
+        <ExperienceCard key={index} {...exp} />
+      ))}
+    </div>
+  </div>
+</section>
+      
       {/* Projects Section */}
       <section id="projects" className="section-padding">
         <div className="container mx-auto">
@@ -219,18 +232,6 @@ const experienceData = [
           </div>
         </div>
       </section>
-
-      <section id="experience" className="section-padding">
-  <div className="container mx-auto">
-    <h2 className="section-heading">Experience</h2>
-
-    <div className="grid md:grid-cols-2 gap-6">
-      {experienceData.map((exp, index) => (
-        <ExperienceCard key={index} {...exp} />
-      ))}
-    </div>
-  </div>
-</section>
 
       {/* Courses Section */}
         <section id="courses" className="section-padding">
